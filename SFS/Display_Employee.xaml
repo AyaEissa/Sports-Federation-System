@@ -8,7 +8,7 @@
         Title="Display_Employee" Height="350" Width="500">
     <Grid Margin="0,-60,-335.4,-83.6">
         <Grid.Background>
-            <ImageBrush ImageSource="Images\background.png"/>
+            <ImageBrush ImageSource="backgr.png"/>
         </Grid.Background>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10*"/>

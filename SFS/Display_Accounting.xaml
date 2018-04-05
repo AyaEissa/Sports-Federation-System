@@ -8,7 +8,7 @@
         Title="Display_Accounting" Height="350" Width="500">
     <Grid Margin="-245,0,-0.4,-126.6">
         <Grid.Background>
-            <ImageBrush ImageSource="images\background.png"/>
+            <ImageBrush ImageSource="backgr.png"/>
         </Grid.Background>
         <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="189,360,0,0" VerticalAlignment="Top" Width="94" Height="77">
             <Button.Background>

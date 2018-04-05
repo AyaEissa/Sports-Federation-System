@@ -8,7 +8,7 @@
         Title="Display_Championships" Height="350" Width="500">
     <Grid Margin="-282,0,-0.4,-126.6">
         <Grid.Background>
-            <ImageBrush ImageSource="images\background.png"/>
+            <ImageBrush ImageSource="backgr.png"/>
         </Grid.Background>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="73,121,0,0" VerticalAlignment="Top" Height="210" Width="491"/>
         <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="176,363,0,0" VerticalAlignment="Top" Width="103" Height="70">

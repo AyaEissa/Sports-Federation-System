@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Owner\Documents\GitHub\Sports-Federation-System - Copy (2)\SFS\obj\Debug\
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\
 SFS
 none
 false
 DEBUG;TRACE
-C:\Users\Owner\Documents\GitHub\Sports-Federation-System - Copy (2)\SFS\App.xaml
-5112684311
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\App.xaml
+7-1051943972
 
-221116406986
+24778503032
 13738642453
-Display_Accounting.xaml;Display_Championships.xaml;Display_Employee.xaml;Display_Sponsers.xaml;MainWindow.xaml;
+Display_Accounting.xaml;Display_Championships.xaml;Display_Club.xaml;Display_Coaches.xaml;Display_Employee.xaml;Display_Sponsers.xaml;MainWindow.xaml;
 
-True
+False
 

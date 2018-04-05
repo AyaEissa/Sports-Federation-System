@@ -65,6 +65,12 @@
     <Compile Include="Display_Championships.xaml.cs">
       <DependentUpon>Display_Championships.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Display_Club.xaml.cs">
+      <DependentUpon>Display_Club.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Display_Coaches.xaml.cs">
+      <DependentUpon>Display_Coaches.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Display_Employee.xaml.cs">
       <DependentUpon>Display_Employee.xaml</DependentUpon>
     </Compile>
@@ -79,6 +85,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Display_Championships.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Display_Club.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Display_Coaches.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,6 +154,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="back2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="back3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -11,7 +11,7 @@
     </Window.Background>
     <Grid Margin="-198,0,-129.4,-95.6">
         <Grid.Background>
-            <ImageBrush ImageSource="Images\background.png"/>
+            <ImageBrush ImageSource="backgr.png"/>
         </Grid.Background>
         <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="90,123,0,0" VerticalAlignment="Top" Height="210" Width="533"/>
         <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="288,349,0,0" VerticalAlignment="Top" Width="80" Height="57">
