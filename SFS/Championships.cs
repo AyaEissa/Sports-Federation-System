@@ -8,8 +8,9 @@ namespace SFS
 {
     class Championships
     {
-
         string place;
+        string type;
+        bool senior;
         List<Team> teamList;
         int results;
         public Championships()
@@ -19,10 +20,11 @@ namespace SFS
             results = 0;
            
         }
-        public Championships(string placee,int Results)
+        public Championships(string placee,string Type,bool sn)
         {
             place = placee;
-            results = Results;
+            type = Type;
+            senior = sn;
             
         }
         public void setPlace(string place)

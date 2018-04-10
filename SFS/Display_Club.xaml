@@ -7,27 +7,23 @@
         mc:Ignorable="d"
         Title="Display_Club" Height="350" Width="500">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="0*"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="backgr.png"/>
+            <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Right" VerticalAlignment="Top" RenderTransformOrigin="8.809,5.024" Margin="0,75,153.6,0" Grid.ColumnSpan="2" Height="183" Width="273"/>
-        <Button x:Name="button" Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="75" Height="55">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="78,71,0,0" VerticalAlignment="Top" Height="163" Width="305"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="50,250,0,0" VerticalAlignment="Top" Width="92" Height="61">
             <Button.Background>
-                <ImageBrush ImageSource="images\back.png"/>
+                <ImageBrush ImageSource="back.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button1" Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Margin="103,273,0,0" VerticalAlignment="Top" Width="75" Height="38">
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="190,250,0,0" VerticalAlignment="Top" Width="92" Height="61" Click="button1_Click">
             <Button.Background>
-                <ImageBrush ImageSource="images\search.png"/>
+                <ImageBrush ImageSource="search.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button2" Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Margin="237,273,0,9.8" Width="75" RenderTransformOrigin="-0.568,0.553">
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="327,250,0,0" VerticalAlignment="Top" Width="92" Height="61" RenderTransformOrigin="0.332,0.266">
             <Button.Background>
-                <ImageBrush ImageSource="images\img.png"/>
+                <ImageBrush ImageSource="view.png"/>
             </Button.Background>
         </Button>
 

@@ -9,7 +9,7 @@ namespace SFS
     public abstract class Person
     {
         string name;
-        int dateOfBirth;
+        string dateOfBirth;
         string gender;
         int id;
         bool medicalReport;
@@ -18,14 +18,14 @@ namespace SFS
         public Person()
         {
             name = "";
-            dateOfBirth = 0;
+            dateOfBirth = "";
             gender = "";
             id = 0;
             medicalReport = false;
             salary = 0;
             bonus = 0;
         }
-        public Person(string n, int d, string g, int i, bool m, float s, float b)
+        public Person(string n, string d, string g, int i, bool m, float s, float b)
         {
             name = n;
             dateOfBirth = d;
@@ -46,13 +46,13 @@ namespace SFS
             return this.name;
         }
 
-        public void setDateOfBirth(int dateOfBirth)
+        public void setDateOfBirth(string dateOfBirth)
         {
 
             this.dateOfBirth = dateOfBirth;
 
         }
-        public int getDateOfBirth()
+        public string getDateOfBirth()
         {
             return this.dateOfBirth;
         }
@@ -103,7 +103,7 @@ namespace SFS
         public int ageCalculator()
         {
 
-            return 2018 - getDateOfBirth();
+            return 18 - int.Parse(getDateOfBirth().Substring(7));
         }
         public virtual void displayInfo()
         {

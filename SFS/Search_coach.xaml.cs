@@ -15,13 +15,18 @@ using System.Windows.Shapes;
 namespace SFS
 {
     /// <summary>
-    /// Interaction logic for Display_Championships.xaml
+    /// Interaction logic for Search_coach.xaml
     /// </summary>
-    public partial class Display_Championships : Window
+    public partial class Search_coach : Window
     {
-        public Display_Championships()
+        public Search_coach()
         {
             InitializeComponent();
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -23,5 +23,12 @@ namespace SFS
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Search_club b = new Search_club();
+            b.Show();
+
+        }
     }
 }

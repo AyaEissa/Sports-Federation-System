@@ -56,14 +56,21 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Accounting.cs" />
+    <Compile Include="AGE.xaml.cs">
+      <DependentUpon>AGE.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Bsponsor.xaml.cs">
+      <DependentUpon>Bsponsor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Championships.cs" />
     <Compile Include="Club.cs" />
     <Compile Include="Coach.cs" />
-    <Compile Include="Display_Accounting.xaml.cs">
-      <DependentUpon>Display_Accounting.xaml</DependentUpon>
+    <Compile Include="coachgrid.xaml.cs">
+      <DependentUpon>coachgrid.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Display_Championships.xaml.cs">
-      <DependentUpon>Display_Championships.xaml</DependentUpon>
+    <Compile Include="Containers.cs" />
+    <Compile Include="Display_Championshsips.xaml.cs">
+      <DependentUpon>Display_Championshsips.xaml</DependentUpon>
     </Compile>
     <Compile Include="Display_Club.xaml.cs">
       <DependentUpon>Display_Club.xaml</DependentUpon>
@@ -77,14 +84,52 @@
     <Compile Include="Display_Sponsers.xaml.cs">
       <DependentUpon>Display_Sponsers.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Dsiplay_Accounting.xaml.cs">
+      <DependentUpon>Dsiplay_Accounting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="placech.xaml.cs">
+      <DependentUpon>placech.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Player.cs" />
+    <Compile Include="playersfiltration.xaml.cs">
+      <DependentUpon>playersfiltration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Accounting.xaml.cs">
+      <DependentUpon>Search_Accounting.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Championship.xaml.cs">
+      <DependentUpon>Search_Championship.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search_club.xaml.cs">
+      <DependentUpon>Search_club.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search_coach.xaml.cs">
+      <DependentUpon>Search_coach.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Employee.xaml.cs">
+      <DependentUpon>Search_Employee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Sponser.xaml.cs">
+      <DependentUpon>Search_Sponser.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sponsers.cs" />
     <Compile Include="Team.cs" />
-    <Page Include="Display_Accounting.xaml">
+    <Compile Include="typech.xaml.cs">
+      <DependentUpon>typech.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AGE.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Display_Championships.xaml">
+    <Page Include="Bsponsor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="coachgrid.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Display_Championshsips.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,6 +149,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Dsiplay_Accounting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -117,6 +166,42 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="placech.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="playersfiltration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search_Accounting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search_Championship.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search_club.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search_coach.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search_Employee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Search_Sponser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="typech.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Person.cs" />
@@ -147,22 +232,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="backgrd.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="back.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="back1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="back2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="back3.png" />
+    <Resource Include="questionM.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="search.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="img.png" />
+    <Resource Include="view.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

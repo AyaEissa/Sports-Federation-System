@@ -11,6 +11,83 @@ C:\Users\Omar Khaled\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.Properti
 C:\Users\Omar Khaled\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.csproj.GenerateResource.Cache
 C:\Users\Omar Khaled\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.exe
 C:\Users\Omar Khaled\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.pdb
-C:\Users\Owner\Documents\GitHub\Sports-Federation-System - Copy (2)\SFS\bin\Debug\SFS.exe.config
-C:\Users\Owner\Documents\GitHub\Sports-Federation-System - Copy (2)\SFS\obj\Debug\SFS.exe
-C:\Users\Owner\Documents\GitHub\Sports-Federation-System - Copy (2)\SFS\obj\Debug\SFS.pdb
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\App.g.cs
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS_MarkupCompile.cache
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS_MarkupCompile.lref
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\bin\Debug\SFS.exe.config
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\bin\Debug\SFS.exe
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\bin\Debug\SFS.pdb
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\MainWindow.baml
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.g.resources
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.Properties.Resources.resources
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.csproj.GenerateResource.Cache
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.exe
+C:\Users\Owner\Documents\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.pdb
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\bin\Debug\SFS.exe.config
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.exe
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.pdb
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\bin\Debug\SFS.exe
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\bin\Debug\SFS.pdb
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\MainWindow.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\App.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS_MarkupCompile.cache
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS_MarkupCompile.lref
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\MainWindow.baml
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.g.resources
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.Properties.Resources.resources
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\SFS.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\AGE.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\AGE.baml
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\Bsponsor.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\coachgrid.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\playersfiltration.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\typech.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\placech.g.cs
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\Bsponsor.baml
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\coachgrid.baml
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\placech.baml
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\playersfiltration.baml
+\\vmware-host\Shared Folders\GitHub\Sports-Federation-System\SFS\obj\Debug\typech.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\bin\Debug\SFS.exe.config
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.exe
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.pdb
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\bin\Debug\SFS.exe
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\bin\Debug\SFS.pdb
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\AGE.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Bsponsor.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\coachgrid.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Championshsips.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Club.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Coaches.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Employee.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Sponsers.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Dsiplay_Accounting.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\MainWindow.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\placech.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\playersfiltration.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Search_Employee.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\typech.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\App.g.cs
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS_MarkupCompile.cache
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS_MarkupCompile.lref
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\AGE.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Bsponsor.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\coachgrid.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Championshsips.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Club.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Coaches.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Employee.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Display_Sponsers.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Dsiplay_Accounting.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\MainWindow.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\placech.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\playersfiltration.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\Search_Employee.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\typech.baml
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.g.resources
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.Properties.Resources.resources
+C:\Users\Owner\Desktop\Sports-Federation-System\SFS\obj\Debug\SFS.csproj.GenerateResource.Cache

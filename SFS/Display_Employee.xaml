@@ -6,30 +6,25 @@
         xmlns:local="clr-namespace:SFS"
         mc:Ignorable="d"
         Title="Display_Employee" Height="350" Width="500">
-    <Grid Margin="0,-60,-335.4,-83.6">
+    <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="backgr.png"/>
+            <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="167*"/>
-        </Grid.ColumnDefinitions>
-        <Button x:Name="button" Content="" Grid.Column="1" HorizontalAlignment="Left" Margin="187.8,368,0,0" VerticalAlignment="Top" Width="82" Height="61" RenderTransformOrigin="0.53,0.478">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="58,68,0,0" VerticalAlignment="Top" Height="189" Width="326"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="81,266,0,0" VerticalAlignment="Top" Width="75" Height="45">
             <Button.Background>
-                <ImageBrush ImageSource="Images\Search.png"/>
+                <ImageBrush ImageSource="back.png"/>
             </Button.Background>
         </Button>
-        <DataGrid x:Name="dataGrid" Grid.Column="1" HorizontalAlignment="Left" Margin="48.8,124,0,0" VerticalAlignment="Top" Height="226" Width="524"/>
-        <Button x:Name="button1" Content="&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="335.8,368,0,0" VerticalAlignment="Top" Width="76" Height="61">
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="186,266,0,0" VerticalAlignment="Top" Width="75" Height="45" RenderTransformOrigin="-0.047,0.669" Click="button1_Click">
             <Button.Background>
-                <ImageBrush ImageSource="images\img.png"/>
+                <ImageBrush ImageSource="search.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top" Width="108" Height="55" Grid.ColumnSpan="2">
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="292,266,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.123,-1.737" Height="45">
             <Button.Background>
-                <ImageBrush ImageSource="back2.png"/>
+                <ImageBrush ImageSource="view.png"/>
             </Button.Background>
         </Button>
-
     </Grid>
 </Window>

@@ -15,13 +15,18 @@ using System.Windows.Shapes;
 namespace SFS
 {
     /// <summary>
-    /// Interaction logic for Display_Accounting.xaml
+    /// Interaction logic for Search_Accounting.xaml
     /// </summary>
-    public partial class Display_Accounting : Window
+    public partial class Search_Accounting : Window
     {
-        public Display_Accounting()
+        public Search_Accounting()
         {
             InitializeComponent();
+        }
+
+        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }

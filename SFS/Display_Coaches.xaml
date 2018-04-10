@@ -6,25 +6,26 @@
         xmlns:local="clr-namespace:SFS"
         mc:Ignorable="d"
         Title="Display_Coaches" Height="350" Width="500">
-    <Grid Margin="-55,0,-0.4,-41.2">
+    <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="backgr.png"/>
+            <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="60,89,0,0" VerticalAlignment="Top" Height="171" Width="310"/>
-        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="108" Height="55">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="59,68,0,0" VerticalAlignment="Top" Height="186" Width="326"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="75,269,0,0" VerticalAlignment="Top" Width="79" Height="42" RenderTransformOrigin="0.543,0.483">
             <Button.Background>
-                <ImageBrush ImageSource="back3.png"/>
+                <ImageBrush ImageSource="back.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="99,282,0,0" VerticalAlignment="Top" Width="93" Height="52">
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="198,269,0,0" VerticalAlignment="Top" Width="75" Height="42" Click="button1_Click">
             <Button.Background>
                 <ImageBrush ImageSource="search.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="230,282,0,0" VerticalAlignment="Top" Width="105" Height="52">
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="310,269,0,0" VerticalAlignment="Top" Width="75" Height="42">
             <Button.Background>
-                <ImageBrush ImageSource="img.png"/>
+                <ImageBrush ImageSource="view.png"/>
             </Button.Background>
         </Button>
+
     </Grid>
 </Window>

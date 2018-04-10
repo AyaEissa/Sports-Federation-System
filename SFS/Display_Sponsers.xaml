@@ -6,27 +6,24 @@
         xmlns:local="clr-namespace:SFS"
         mc:Ignorable="d"
         Title="Display_Sponsers" Height="350" Width="500">
-    <Window.Background>
-        <ImageBrush/>
-    </Window.Background>
-    <Grid Margin="-198,0,-129.4,-95.6">
+    <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="backgr.png"/>
+            <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="90,123,0,0" VerticalAlignment="Top" Height="210" Width="533"/>
-        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="288,349,0,0" VerticalAlignment="Top" Width="80" Height="57">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="50,74,0,0" VerticalAlignment="Top" Height="176" Width="354"/>
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="85,263,0,0" VerticalAlignment="Top" Width="75" Height="48">
             <Button.Background>
-                <ImageBrush ImageSource="Images\search.png"/>
+                <ImageBrush ImageSource="back.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="417,349,0,0" VerticalAlignment="Top" Width="69" Height="57">
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Margin="194,263,0,0" VerticalAlignment="Top" Width="75" Height="48" Click="button1_Click">
             <Button.Background>
-                <ImageBrush ImageSource="Images\img.png"/>
+                <ImageBrush ImageSource="search.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="10,28,0,0" VerticalAlignment="Top" Width="108" Height="55">
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="301,265,0,0" VerticalAlignment="Top" Width="75" Height="47">
             <Button.Background>
-                <ImageBrush ImageSource="back1.png"/>
+                <ImageBrush ImageSource="view.png"/>
             </Button.Background>
         </Button>
 

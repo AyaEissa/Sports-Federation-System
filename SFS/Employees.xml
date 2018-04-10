@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Employees>
+  <Employee>
+    <Employee_Name>Mostafa</Employee_Name>
+    <Employment_ID>Mo97</Employment_ID>
+    <Mobile_Number>019837337</Mobile_Number>
+    <Gender>Male</Gender>
+    <Medical_Form>Yes</Medical_Form>
+    <Salary>30000</Salary>
+    <Bonus>0</Bonus>
+    <Employement_Date>4/1/2015</Employement_Date>
+    <Working_Years>3</Working_Years>
+    <Date_of_birth>3/13/1997</Date_of_birth>
+    <Available>Yes</Available>
+    <Department>HR</Department>
+  </Employee>
+  <Employee>
+    <Employee_Name>Caramella</Employee_Name>
+    <Employeement_ID>Ca98</Employeement_ID>
+    <Mobile_Number>012121212</Mobile_Number>
+    <Gender>Male</Gender>
+    <Medical_Form>No</Medical_Form>
+    <Salary>5</Salary>
+    <Bonus>0</Bonus>
+    <Employement_Date>8/11/2010</Employement_Date>
+    <Working_Years>8</Working_Years>
+    <Date_of_birth>3/18/1998</Date_of_birth>
+    <Available>Yes</Available>
+  </Employee>
+</Employees>
