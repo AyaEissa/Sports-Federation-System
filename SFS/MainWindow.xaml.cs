@@ -28,21 +28,13 @@ namespace SFS
           Containers.Read_Employees();
           Containers.Read_Clubs();
           Containers.Read_Teams();
-          //  AGE a = new SFS.AGE();
-          //  a.Show();
-         //   mainqueryform f = new mainqueryform();
-         //   f.Show();
-          //  Options o = new Options();
-          //  o.Show();
+            AGE a = new SFS.AGE();
+            a.Show();
+            mainqueryform f = new mainqueryform();
+            f.Show();
+            Options o = new Options();
+            o.Show();
             
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            Loginas lag = new Loginas();
-            lag.Show();
-            this.Close();
-
         }
     }
 }

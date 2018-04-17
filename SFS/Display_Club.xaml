@@ -21,7 +21,7 @@
                 <ImageBrush ImageSource="search.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="327,250,0,0" VerticalAlignment="Top" Width="92" Height="61" RenderTransformOrigin="0.332,0.266">
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="327,250,0,0" VerticalAlignment="Top" Width="92" Height="61" RenderTransformOrigin="0.332,0.266" Click="button2_Click">
             <Button.Background>
                 <ImageBrush ImageSource="view.png"/>
             </Button.Background>

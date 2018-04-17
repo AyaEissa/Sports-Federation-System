@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <DataGrid x:Name="SalaryQueryDG" HorizontalAlignment="Left" Height="248" Margin="10,110,0,0" VerticalAlignment="Top" Width="284"/>
+        <DataGrid x:Name="SalaryQueryDG" HorizontalAlignment="Left" Height="248" Margin="10,110,0,0" VerticalAlignment="Top" Width="284" SelectionChanged="SalaryQueryDG_SelectionChanged"/>
         <Button x:Name="button" Content="" HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="86" Click="button_Click">
             <Button.BorderBrush>
                 <ImageBrush/>

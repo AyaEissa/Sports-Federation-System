@@ -11,8 +11,9 @@
         <Grid.Background>
             <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <TextBox x:Name="type" HorizontalAlignment="Left" Height="28" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Margin="280,89,0,0"/>
-        <TextBox x:Name="place" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Margin="280,130,0,0"/>
+        <TextBox x:Name="result" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="275,215,0,0"/>
+        <TextBox x:Name="type" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="280,94,0,0"/>
+        <TextBox x:Name="place" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="280,130,0,0"/>
         <RadioButton x:Name="Senior" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="221,178,0,0"/>
         <RadioButton x:Name="junior" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="316,178,0,0" RenderTransformOrigin="2.812,2.396"/>
         <Button x:Name="add" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Height="56" Margin="401,264,0,0" Click="add_Click">
@@ -30,6 +31,7 @@
         <Label x:Name="label2_Copy1" Content="Stage:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,163,0,0" FontFamily="Traditional Arabic" FontSize="22" FontWeight="Bold"/>
         <Label x:Name="label2_Copy2" Content="Senior" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="237,167,0,0" FontFamily="Traditional Arabic" FontSize="22" FontWeight="Bold"/>
         <Label x:Name="label2_Copy3" Content="Junior" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="333,166,0,0" FontFamily="Traditional Arabic" FontSize="22" FontWeight="Bold"/>
+        <Label x:Name="label2_Copy4" Content="Results:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="37,207,0,0" FontFamily="Traditional Arabic" FontSize="22" FontWeight="Bold"/>
 
     </Grid>
 </Window>

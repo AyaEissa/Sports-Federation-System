@@ -10,7 +10,6 @@
         <Grid.Background>
             <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="50,74,0,0" VerticalAlignment="Top" Height="176" Width="354"/>
         <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="85,263,0,0" VerticalAlignment="Top" Width="75" Height="48">
             <Button.Background>
                 <ImageBrush ImageSource="back.png"/>
@@ -21,11 +20,16 @@
                 <ImageBrush ImageSource="search.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="301,265,0,0" VerticalAlignment="Top" Width="75" Height="47">
+        <Button x:Name="button2" Content="" HorizontalAlignment="Left" Margin="301,265,0,0" VerticalAlignment="Top" Width="75" Height="47" Click="button2_Click">
             <Button.Background>
                 <ImageBrush ImageSource="view.png"/>
             </Button.Background>
         </Button>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="158" Margin="69,82,0,0" VerticalAlignment="Top" Width="100"/>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="158" Margin="169,82,0,0" VerticalAlignment="Top" Width="100"/>
+        <ListBox x:Name="listBox3" HorizontalAlignment="Left" Height="158" Margin="269,82,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="185,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="textBox_TextChanged"/>
+        <Label x:Name="label" Content="Enter Name:&#xD;&#xA;" HorizontalAlignment="Left" Margin="22,48,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold"/>
 
     </Grid>
 </Window>

@@ -20,7 +20,7 @@
                 <ImageBrush ImageSource="questionM.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Height="87" VerticalAlignment="Top" Width="114" Margin="0,232,0,0" Click="button1_Click">
+        <Button x:Name="button1" Content="" HorizontalAlignment="Left" Height="73" VerticalAlignment="Top" Width="99" Margin="0,246,0,0">
             <Button.BorderBrush>
                 <ImageBrush/>
             </Button.BorderBrush>

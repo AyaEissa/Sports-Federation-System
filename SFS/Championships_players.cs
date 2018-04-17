@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace SFS
 {
-    class Championships_players:Championships
+    class Championships_players : Championships
     {
-      public  List<int> Results;
+        public List<int> Results;
+
+        public Championships_players(string placee, string Type, string sn) : base(placee, Type, sn)
+        {
+
+        }
     }
 }

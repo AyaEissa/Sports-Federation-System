@@ -34,7 +34,6 @@ namespace SFS
         {
             Add_Options cccc = new Add_Options();
             cccc.Show();
-            this.Hide();
         }
 
 
@@ -117,7 +116,7 @@ namespace SFS
 
                 MessageBox.Show("Club Successfuly Added.");
             }
-            
+           
         }
     }
 }

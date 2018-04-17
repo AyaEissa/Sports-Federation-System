@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="backgrd.png"/>
         </Grid.Background>
-        <DataGrid x:Name="TeamResultsDatagrid" HorizontalAlignment="Left" Height="226" VerticalAlignment="Top" Width="337"/>
+        <DataGrid x:Name="TeamResultsDatagrid" HorizontalAlignment="Left" Height="226" VerticalAlignment="Top" Width="337" SelectionChanged="TeamResultsDatagrid_SelectionChanged"/>
         <Button x:Name="button" Content="" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="106" Click="button_Click" Margin="10,231,0,0">
             <Button.BorderBrush>
                 <ImageBrush/>

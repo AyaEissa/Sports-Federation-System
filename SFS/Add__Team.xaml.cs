@@ -70,7 +70,6 @@ namespace SFS
                 document.Close();
 
                 MessageBox.Show("Team Successfuly added.");
-
             }
             else
 
@@ -105,7 +104,6 @@ namespace SFS
         {
             Add_Options aa = new Add_Options();
             aa.Show();
-            this.Hide();
         }
 
         private void Results_TextChanged(object sender, TextChangedEventArgs e)

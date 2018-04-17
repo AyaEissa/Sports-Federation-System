@@ -23,12 +23,5 @@ namespace SFS
         {
             InitializeComponent();
         }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            EmployeesDepartmentQuery eq = new EmployeesDepartmentQuery();
-                eq.Show();
-            this.Close();
-        }
     }
 }

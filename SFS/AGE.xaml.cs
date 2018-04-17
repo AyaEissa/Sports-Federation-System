@@ -60,28 +60,10 @@ namespace SFS
                       juniors.Add(l[i]);
                   }
               }
-            List<int> tage = new List<int>();
-            List<string> tname = new List<string>();
-            if (age1.Text == "Senior")
-            {
-
-                for (int i = 0; i < seniors.Count; i++)
-                {
-                    tage.Add(seniors[i].ageCalculator());
-                    tname.Add(seniors[i].getName());
-                }
-
-            }
-            else
-            {
-                for (int i = 0; i < juniors.Count; i++)
-                {
-                    tage.Add(juniors[i].ageCalculator());
-                    tname.Add(juniors[i].getName());
-                }
-            }
-            listBox.ItemsSource = tname;
-                listBox1.ItemsSource = tage;
+            textBox.Text = Containers.Player_list.Count.ToString();
+            // Player omar = new Player("omar","1111111111","mmmmmm","2222","aasdasd",12,12,"33123","33333");
+            // Containers.Player_list.Add(omar);
+            dataGrid.ItemsSource = Containers.Player_list;  
 
         }
 
@@ -91,16 +73,6 @@ namespace SFS
         }
 
         private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void dataGrid_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

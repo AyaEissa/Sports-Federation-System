@@ -35,15 +35,7 @@ namespace SFS
             string med;
             int x= 0;
             string bou=x.ToString();
-            int y = int.Parse(Date.Text.Substring(6));
-            int z = 18 - y;
-            string salaryy = "0";
-            if (z > 13)
-            {
-                int s = 2000;
-                 salaryy = s.ToString();
-            }
-
+          
             /* string temp = Date.Text;
              string id = temp[8].ToString() + temp[9].ToString();*/
             if (male.IsChecked == true)
@@ -54,14 +46,9 @@ namespace SFS
             else med = "NO";
             string temp = Date.Text;
             string temp2 = Name.Text;
-            string id = temp2[0].ToString() + temp2[1].ToString() + temp[6].ToString() + temp[7].ToString();
-            bool mobile = false;
-            for (int i = 0; i < Containers.Player_list.Count(); i++)
-            {
-                if (Containers.Player_list[i].getmobile() == Number.Text)
-                    mobile = true;
-            }
-                if (Name.Text == "" || Number.Text == "" ||  team_name.Text == "" || Date.Text == "" )
+            string id = temp2[0].ToString() + temp2[1].ToString() + temp[7].ToString() + temp[8].ToString();
+
+            if (Name.Text == "" || Number.Text == "" || Salary.Text == "" || team_name.Text == "" || Date.Text == "" )
             {
                 MessageBox.Show("Please fill the required information !");
             }
@@ -69,10 +56,7 @@ namespace SFS
                 MessageBox.Show("Please fill the required information !");
             else if ((yes.IsChecked == true) && (no.IsChecked == true))
                 MessageBox.Show("Please fill the required information !");
-             else if (mobile == true)
-            {
-                MessageBox.Show("This mobile number is already registered !");
-            }
+
 
            // Player newplayer = new Player(team_name.Text,Name.Text,Date.Text,gender,id,med,);
 
@@ -107,7 +91,7 @@ namespace SFS
                 document.WriteEndElement();
 
                 document.WriteStartElement("Salary");
-                document.WriteString(salaryy);
+                document.WriteString(Salary.Text);
                 document.WriteEndElement();
 
                 document.WriteStartElement("Bonus");
@@ -120,10 +104,6 @@ namespace SFS
 
                 document.WriteStartElement("Team_Name");
                 document.WriteString(team_name.Text);
-                document.WriteEndElement();
-
-                document.WriteStartElement("Coach_Name");
-                document.WriteString(coach.Text);
                 document.WriteEndElement();
 
                 document.WriteEndElement();
@@ -163,7 +143,7 @@ namespace SFS
                 playerr.AppendChild(Medical);
 
                 XmlNode salary = doc.CreateElement("Salary");
-                salary.InnerText = salaryy;
+                salary.InnerText = Salary.Text;
                 playerr.AppendChild(salary);
 
                 XmlNode bonus = doc.CreateElement("Bonus");
@@ -178,10 +158,6 @@ namespace SFS
                 teamm.InnerText = team_name.Text;
                 playerr.AppendChild(teamm);
 
-                XmlNode cooo = doc.CreateElement("Coach_Name");
-                cooo.InnerText = coach.Text;
-                playerr.AppendChild(cooo);
-
                 doc.DocumentElement.AppendChild(playerr);
                 doc.Save("Players.xml");
 
@@ -193,7 +169,6 @@ namespace SFS
         {
             Add_Options cccc = new Add_Options();
             cccc.Show();
-            this.Hide();
         }
 
         private void yes_Checked(object sender, RoutedEventArgs e)

@@ -14,7 +14,7 @@
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="156,96,0,0" TextChanged="textBox1_TextChanged"/>
         <Label x:Name="label2_Copy1" Content="Old Mobile:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="9,88,0,0" FontFamily="Traditional Arabic" FontSize="22" FontWeight="Bold"/>
         <Label x:Name="label2_Copy" Content="New Mobile:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="8,120,0,0" FontFamily="Traditional Arabic" FontSize="22" FontWeight="Bold"/>
-        <Button x:Name="button" Content="" HorizontalAlignment="Left" Width="76" Margin="414,280,0,0" Click="button_Click" Height="38" VerticalAlignment="Top">
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="76" Margin="414,280,0,0" Height="38" Click="button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Edit2.png"/>
             </Button.Background>

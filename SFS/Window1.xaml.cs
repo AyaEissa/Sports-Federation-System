@@ -15,20 +15,13 @@ using System.Windows.Shapes;
 namespace SFS
 {
     /// <summary>
-    /// Interaction logic for getExpenseMonth.xaml
+    /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class getExpenseMonth : Window
+    public partial class Window1 : Window
     {
-        public getExpenseMonth()
+        public Window1()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            AccountingOptionForm op = new AccountingOptionForm();
-            op.Show();
-            this.Close();
         }
     }
 }

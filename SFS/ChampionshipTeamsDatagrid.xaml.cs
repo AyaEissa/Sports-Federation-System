@@ -30,5 +30,10 @@ namespace SFS
             ts.Show();
             this.Close();
         }
+
+        private void TeamResultsDatagrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

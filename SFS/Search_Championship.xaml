@@ -21,7 +21,7 @@
                 </TransformGroup>
             </TextBox.RenderTransform>
         </TextBox>
-        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="384,249,0,0" VerticalAlignment="Top" Width="100" Height="62">
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Margin="384,249,0,0" VerticalAlignment="Top" Width="100" Height="62" Click="button_Click">
             <Button.Background>
                 <ImageBrush ImageSource="search.png"/>
             </Button.Background>

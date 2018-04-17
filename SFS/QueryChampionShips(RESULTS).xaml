@@ -22,6 +22,7 @@
                 <ImageBrush ImageSource="questionM.png"/>
             </Button.Background>
         </Button>
+        <DataGrid x:Name="ResultsDataGrid" HorizontalAlignment="Left" Height="137" Margin="10,154,0,0" VerticalAlignment="Top" Width="215"/>
         <Button x:Name="button1" Content="" HorizontalAlignment="Left" Height="71" VerticalAlignment="Top" Width="96" Click="button1_Click">
             <Button.BorderBrush>
                 <ImageBrush/>

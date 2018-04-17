@@ -11,13 +11,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.Xml;
-using System.IO;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Formatters.Binary;
-using System.Drawing;
-using System.Data;
-
 
 namespace SFS
 {
@@ -33,32 +26,9 @@ namespace SFS
 
         private void textBox1_TextChanged(object sender, TextChangedEventArgs e)
         {
-           
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-            Edit_Employee ee = new Edit_Employee();
-            ee.Show();
-            this.Hide();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            bool mobilee = false;
-            for (int i = 0; i < Containers.Player_list.Count(); i++)
-            {
-                if (Containers.Player_list[i].getmobile() == textBox1.Text)
-                    mobilee = true;
-            }
-            
             if (textBox1.Text == "" || mobile.Text == "")
             {
                 MessageBox.Show("Please fill the required information !");
-            }
-            else if (mobilee == true)
-            {
-                MessageBox.Show("Mobile number is already registered !");
             }
             else if (textBox1.Text == mobile.Text)
             {
@@ -76,18 +46,19 @@ namespace SFS
                     }
 
                 }
-                if (File.Exists("Employees.xml"))
-                {
-                    File.Delete("Employees.xml");
-                }
-
-                for (int i = 0; i < Containers.Employee_list.Count; i++)
-                {
-                    Containers.write_Employee(Containers.Employee_list[i]);
-
-                }
                 MessageBox.Show("Done Changes");
             }
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Edit_Employee ee = new Edit_Employee();
+            ee.Show();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+             
 
         }
     }

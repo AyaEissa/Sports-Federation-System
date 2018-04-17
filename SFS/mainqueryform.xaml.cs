@@ -72,26 +72,7 @@ namespace SFS
                 s.Show();
 
             }
-            else if(QueryOptions.Text== "Coach with highest Score")
-            {
-                coachgrid cg = new coachgrid();
-                cg.Show();
-            }
-            else if(QueryOptions.Text == "Best Sponores Deal")
-            {
-                Bsponsor bs = new Bsponsor();
-                bs.Show();
-            }
-            else if(QueryOptions.Text == "Champions in Specific Place")
-            {
-                placech ch = new placech();
-                ch.Show();
-            }
-            else if(QueryOptions.Text == "Championship type")
-            {
-                typech tch = new typech();
-                tch.Show();
-            }
+
             this.Close();
         }
     }

@@ -36,7 +36,7 @@ namespace SFS
                 sen = "Yes";
             else sen = "No";
 
-            if (type.Text == "" || (Senior.IsChecked == false && junior.IsChecked == false) || place.Text=="")
+            if (type.Text == "" || (Senior.IsChecked == false && junior.IsChecked == false) || result.Text == ""||place.Text=="")
             {
                 MessageBox.Show("Please fill the required information !");
             }
@@ -62,7 +62,7 @@ namespace SFS
                 document.WriteEndElement();
 
                 document.WriteStartElement("Results");
-                document.WriteString("0");
+                document.WriteString(result.Text);
                 document.WriteEndElement();
 
                 document.WriteEndElement();
@@ -94,7 +94,7 @@ namespace SFS
                 Championshipp.AppendChild(senior);
 
                 XmlNode res = doc.CreateElement("Results");
-                res.InnerText = "0";
+                res.InnerText = result.Text;
                 Championshipp.AppendChild(res);
 
                 doc.DocumentElement.AppendChild(Championshipp);
@@ -109,7 +109,6 @@ namespace SFS
         {
             Add_Options cccc = new Add_Options();
             cccc.Show();
-            this.Hide();
         }
     }
 }

@@ -39,10 +39,6 @@ namespace SFS
         {
             return this.Name;
         }
-        public void setplace(string s)
-        {
-            place = s;
-        }
         public string GetPlace()
         {
             return this.place;
@@ -55,6 +51,26 @@ namespace SFS
         {
             return this.results;
         }
+
+        public void settype(string type)
+        {
+            this.type = type;
+        }
+        public string gettype()
+        {
+            return this.type;
+        }
+        public void setsenior(string senior)
+        {
+            this.senior = senior;
+        }
+        public string getsenior()
+        {
+            return this.senior;
+        }
+
+
+
 
     }
 }

@@ -30,5 +30,10 @@ namespace SFS
             sq.Show();
             this.Close();
         }
+
+        private void SalaryQueryDG_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

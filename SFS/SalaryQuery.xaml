@@ -18,7 +18,7 @@
             <ComboBoxItem>Less than</ComboBoxItem>
             <ComboBoxItem>Equal</ComboBoxItem>
         </ComboBox>
-        <Button x:Name="button" Content="" HorizontalAlignment="Left" Height="89" Margin="396,230,0,0" VerticalAlignment="Top" Width="96" Click="button_Click">
+        <Button x:Name="button" Content="" HorizontalAlignment="Left" Height="101" Margin="377,218,0,0" VerticalAlignment="Top" Width="115" Click="button_Click">
             <Button.BorderBrush>
                 <ImageBrush/>
             </Button.BorderBrush>
